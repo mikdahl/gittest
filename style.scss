@@ -1,0 +1,27 @@
+
+$Font: "Open Sans", sans-serif;
+
+
+
+body {font-family: $Font;
+      margin:25px;
+      background: rgb(2,0,36);
+      background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,35,149,1) 0%, rgba(255,255,255,1) 50%, rgba(237,41,57,1) 100%);
+      @media only screen and (max-width: 600px) {background: #cdeefd;
+      }}
+
+      img {display: block; max-width: 100%; height: 290px;
+      }
+.display-1{text-align: center; color: #333333;}
+.bodytext{color:#000000;}
+.polaroid{
+  width: 75%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.polaroid2{@extend .polaroid; background-color:red}
+.attractions{padding:8;text-align:justify;}
+.listitems{
+  padding:4;
+  text-align:inherit;
+  }
